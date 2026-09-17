@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+database/campus.db
+campus complaint system/database/campus.db
+
+# Flask session and runtime uploads
+instance/
+static/uploads/*
+!static/uploads/.gitkeep
+static/uploads/annotated/*
+!static/uploads/annotated/.gitkeep
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
