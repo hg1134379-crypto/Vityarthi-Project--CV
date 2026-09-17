@@ -1,0 +1,10 @@
+{
+    "include": [
+        "campus complaint system",
+        "tests",
+        "run.py"
+    ],
+    "extraPaths": [
+        "campus complaint system"
+    ]
+}
